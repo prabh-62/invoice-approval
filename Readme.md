@@ -5,7 +5,7 @@ I built this app to learn about SwiftUI and it's is inspired by the [Synergize M
 ## iOS App
 
 - Review [client/iOS/Readme.md](client/iOS/Readme.md)
-- ![iOS App - Invoice list view](.github/media/iOS_Invoice_list.png "iOS App - Invoice list view")
+  ![iOS App - Invoice list view](.github/media/iOS_Invoice_list.png "iOS App - Invoice list view")
 
 ## Server - web API
 
