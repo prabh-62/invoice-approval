@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD9B19252617806800E649B9 /* InvoiceApprovalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B19242617806800E649B9 /* InvoiceApprovalApp.swift */; };
+		DD9B19272617806800E649B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B19262617806800E649B9 /* ContentView.swift */; };
+		DD9B19292617806900E649B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9B19282617806900E649B9 /* Assets.xcassets */; };
+		DD9B192C2617806900E649B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9B192B2617806900E649B9 /* Preview Assets.xcassets */; };
+		DD9B1937261784C800E649B9 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = DD9B1936261784C800E649B9 /* Moya */; };
+		DD9B19532617881A00E649B9 /* ThemedButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B19522617881A00E649B9 /* ThemedButtonStyle.swift */; };
+		DD9B1956261789DD00E649B9 /* FormFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B1955261789DD00E649B9 /* FormFieldStyle.swift */; };
+		DD9B1959261789F600E649B9 /* InvoiceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B1958261789F600E649B9 /* InvoiceItem.swift */; };
+		DD9B195C26178B9900E649B9 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B195B26178B9900E649B9 /* Log.swift */; };
+		DD9B196026178BED00E649B9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B195F26178BED00E649B9 /* Color.swift */; };
+		DD9B196326178C3600E649B9 /* ButtonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B196226178C3600E649B9 /* ButtonState.swift */; };
+		DD9B196626178C5100E649B9 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B196526178C5100E649B9 /* Auth.swift */; };
+		DD9B196926178C6900E649B9 /* ErrorDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B196826178C6900E649B9 /* ErrorDescription.swift */; };
+		DD9B196C26178C7B00E649B9 /* Invoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B196B26178C7B00E649B9 /* Invoice.swift */; };
+		DD9B196F26178CA500E649B9 /* WorkflowDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B196E26178CA500E649B9 /* WorkflowDetails.swift */; };
+		DD9B197226178CD900E649B9 /* ElectronicFormNameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B197126178CD900E649B9 /* ElectronicFormNameList.swift */; };
+		DD9B197526178CEC00E649B9 /* DocumentBasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B197426178CEC00E649B9 /* DocumentBasicInfo.swift */; };
+		DD9B197826178D0000E649B9 /* DocumentLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B197726178D0000E649B9 /* DocumentLog.swift */; };
+		DD9B197C26178D3D00E649B9 /* Approver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B197B26178D3D00E649B9 /* Approver.swift */; };
+		DD9B197F26178D6C00E649B9 /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B197E26178D6C00E649B9 /* HTTPResponse.swift */; };
+		DD9B198326178E1E00E649B9 /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B198226178E1E00E649B9 /* APIProvider.swift */; };
+		DD9B198826178E4900E649B9 /* BellatrixAccessTokenPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B198726178E4900E649B9 /* BellatrixAccessTokenPlugin.swift */; };
+		DD9B198B26178E6200E649B9 /* CorrelationTokenPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B198A26178E6200E649B9 /* CorrelationTokenPlugin.swift */; };
+		DD9B198E26178E7600E649B9 /* MoyaCacheablePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B198D26178E7600E649B9 /* MoyaCacheablePlugin.swift */; };
+		DD9B199126178EB900E649B9 /* DownloadedFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B199026178EB900E649B9 /* DownloadedFile.swift */; };
+		DD9B199526178FA600E649B9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B199426178FA600E649B9 /* LoginView.swift */; };
+		DD9B199926178FCE00E649B9 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B199826178FCE00E649B9 /* RootView.swift */; };
+		DD9B199C2617900C00E649B9 /* InvoiceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B199B2617900C00E649B9 /* InvoiceListView.swift */; };
+		DD9B199F2617902B00E649B9 /* InvoiceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B199E2617902B00E649B9 /* InvoiceDetail.swift */; };
+		DD9B19A22617905000E649B9 /* WorkflowDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B19A12617905000E649B9 /* WorkflowDocument.swift */; };
+		DD9B19A6261790D900E649B9 /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = DD9B19A5261790D900E649B9 /* PartialSheet */; };
+		DD9B19A92617911000E649B9 /* WorkflowActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B19A82617911000E649B9 /* WorkflowActions.swift */; };
+		DD9B19AC261798D400E649B9 /* ShareSheetPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B19AB261798D400E649B9 /* ShareSheetPDF.swift */; };
+		DD9B19AF261798E200E649B9 /* RemotePDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B19AE261798E200E649B9 /* RemotePDF.swift */; };
+		DD9B19B32617991900E649B9 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B19B22617991900E649B9 /* Mocks.swift */; };
+		DD9B19B62617995400E649B9 /* WorkflowScenarioQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B19B52617995400E649B9 /* WorkflowScenarioQueue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD9B19212617806800E649B9 /* InvoiceApproval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvoiceApproval.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9B19242617806800E649B9 /* InvoiceApprovalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceApprovalApp.swift; sourceTree = "<group>"; };
+		DD9B19262617806800E649B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD9B19282617806900E649B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD9B192B2617806900E649B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD9B192D2617806900E649B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9B19522617881A00E649B9 /* ThemedButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemedButtonStyle.swift; sourceTree = "<group>"; };
+		DD9B1955261789DD00E649B9 /* FormFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFieldStyle.swift; sourceTree = "<group>"; };
+		DD9B1958261789F600E649B9 /* InvoiceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceItem.swift; sourceTree = "<group>"; };
+		DD9B195B26178B9900E649B9 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		DD9B195F26178BED00E649B9 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DD9B196226178C3600E649B9 /* ButtonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonState.swift; sourceTree = "<group>"; };
+		DD9B196526178C5100E649B9 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		DD9B196826178C6900E649B9 /* ErrorDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorDescription.swift; sourceTree = "<group>"; };
+		DD9B196B26178C7B00E649B9 /* Invoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invoice.swift; sourceTree = "<group>"; };
+		DD9B196E26178CA500E649B9 /* WorkflowDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowDetails.swift; sourceTree = "<group>"; };
+		DD9B197126178CD900E649B9 /* ElectronicFormNameList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicFormNameList.swift; sourceTree = "<group>"; };
+		DD9B197426178CEC00E649B9 /* DocumentBasicInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBasicInfo.swift; sourceTree = "<group>"; };
+		DD9B197726178D0000E649B9 /* DocumentLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentLog.swift; sourceTree = "<group>"; };
+		DD9B197B26178D3D00E649B9 /* Approver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Approver.swift; sourceTree = "<group>"; };
+		DD9B197E26178D6C00E649B9 /* HTTPResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
+		DD9B198226178E1E00E649B9 /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
+		DD9B198726178E4900E649B9 /* BellatrixAccessTokenPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellatrixAccessTokenPlugin.swift; sourceTree = "<group>"; };
+		DD9B198A26178E6200E649B9 /* CorrelationTokenPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrelationTokenPlugin.swift; sourceTree = "<group>"; };
+		DD9B198D26178E7600E649B9 /* MoyaCacheablePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaCacheablePlugin.swift; sourceTree = "<group>"; };
+		DD9B199026178EB900E649B9 /* DownloadedFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadedFile.swift; sourceTree = "<group>"; };
+		DD9B199426178FA600E649B9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DD9B199826178FCE00E649B9 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		DD9B199B2617900C00E649B9 /* InvoiceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceListView.swift; sourceTree = "<group>"; };
+		DD9B199E2617902B00E649B9 /* InvoiceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceDetail.swift; sourceTree = "<group>"; };
+		DD9B19A12617905000E649B9 /* WorkflowDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowDocument.swift; sourceTree = "<group>"; };
+		DD9B19A82617911000E649B9 /* WorkflowActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowActions.swift; sourceTree = "<group>"; };
+		DD9B19AB261798D400E649B9 /* ShareSheetPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheetPDF.swift; sourceTree = "<group>"; };
+		DD9B19AE261798E200E649B9 /* RemotePDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePDF.swift; sourceTree = "<group>"; };
+		DD9B19B22617991900E649B9 /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		DD9B19B52617995400E649B9 /* WorkflowScenarioQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowScenarioQueue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD9B191E2617806800E649B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9B19A6261790D900E649B9 /* PartialSheet in Frameworks */,
+				DD9B1937261784C800E649B9 /* Moya in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD9B19182617806800E649B9 = {
+			isa = PBXGroup;
+			children = (
+				DD9B19232617806800E649B9 /* InvoiceApproval */,
+				DD9B19222617806800E649B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD9B19222617806800E649B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD9B19212617806800E649B9 /* InvoiceApproval.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD9B19232617806800E649B9 /* InvoiceApproval */ = {
+			isa = PBXGroup;
+			children = (
+				DD9B199326178F9600E649B9 /* Views */,
+				DD9B198126178E1000E649B9 /* Services */,
+				DD9B195E26178BE400E649B9 /* Models */,
+				DD9B19512617880100E649B9 /* Components */,
+				DD9B19242617806800E649B9 /* InvoiceApprovalApp.swift */,
+				DD9B19262617806800E649B9 /* ContentView.swift */,
+				DD9B19282617806900E649B9 /* Assets.xcassets */,
+				DD9B192D2617806900E649B9 /* Info.plist */,
+				DD9B192A2617806900E649B9 /* Preview Content */,
+			);
+			path = InvoiceApproval;
+			sourceTree = "<group>";
+		};
+		DD9B192A2617806900E649B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD9B192B2617806900E649B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD9B19512617880100E649B9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DD9B19522617881A00E649B9 /* ThemedButtonStyle.swift */,
+				DD9B1955261789DD00E649B9 /* FormFieldStyle.swift */,
+				DD9B1958261789F600E649B9 /* InvoiceItem.swift */,
+				DD9B195B26178B9900E649B9 /* Log.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DD9B195E26178BE400E649B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD9B195F26178BED00E649B9 /* Color.swift */,
+				DD9B196226178C3600E649B9 /* ButtonState.swift */,
+				DD9B196526178C5100E649B9 /* Auth.swift */,
+				DD9B196826178C6900E649B9 /* ErrorDescription.swift */,
+				DD9B196B26178C7B00E649B9 /* Invoice.swift */,
+				DD9B196E26178CA500E649B9 /* WorkflowDetails.swift */,
+				DD9B197126178CD900E649B9 /* ElectronicFormNameList.swift */,
+				DD9B19B52617995400E649B9 /* WorkflowScenarioQueue.swift */,
+				DD9B197426178CEC00E649B9 /* DocumentBasicInfo.swift */,
+				DD9B197726178D0000E649B9 /* DocumentLog.swift */,
+				DD9B197E26178D6C00E649B9 /* HTTPResponse.swift */,
+				DD9B197B26178D3D00E649B9 /* Approver.swift */,
+				DD9B199026178EB900E649B9 /* DownloadedFile.swift */,
+				DD9B19A82617911000E649B9 /* WorkflowActions.swift */,
+				DD9B19B22617991900E649B9 /* Mocks.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD9B198126178E1000E649B9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DD9B198626178E3C00E649B9 /* Plugins */,
+				DD9B198226178E1E00E649B9 /* APIProvider.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DD9B198626178E3C00E649B9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				DD9B198726178E4900E649B9 /* BellatrixAccessTokenPlugin.swift */,
+				DD9B198D26178E7600E649B9 /* MoyaCacheablePlugin.swift */,
+				DD9B198A26178E6200E649B9 /* CorrelationTokenPlugin.swift */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		DD9B199326178F9600E649B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD9B199426178FA600E649B9 /* LoginView.swift */,
+				DD9B199826178FCE00E649B9 /* RootView.swift */,
+				DD9B199B2617900C00E649B9 /* InvoiceListView.swift */,
+				DD9B199E2617902B00E649B9 /* InvoiceDetail.swift */,
+				DD9B19A12617905000E649B9 /* WorkflowDocument.swift */,
+				DD9B19AB261798D400E649B9 /* ShareSheetPDF.swift */,
+				DD9B19AE261798E200E649B9 /* RemotePDF.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD9B19202617806800E649B9 /* InvoiceApproval */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9B19302617806900E649B9 /* Build configuration list for PBXNativeTarget "InvoiceApproval" */;
+			buildPhases = (
+				DD9B191D2617806800E649B9 /* Sources */,
+				DD9B191E2617806800E649B9 /* Frameworks */,
+				DD9B191F2617806800E649B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InvoiceApproval;
+			packageProductDependencies = (
+				DD9B1936261784C800E649B9 /* Moya */,
+				DD9B19A5261790D900E649B9 /* PartialSheet */,
+			);
+			productName = InvoiceApproval;
+			productReference = DD9B19212617806800E649B9 /* InvoiceApproval.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD9B19192617806800E649B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DD9B19202617806800E649B9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = DD9B191C2617806800E649B9 /* Build configuration list for PBXProject "InvoiceApproval" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD9B19182617806800E649B9;
+			packageReferences = (
+				DD9B1935261784C800E649B9 /* XCRemoteSwiftPackageReference "Moya" */,
+				DD9B19A4261790D900E649B9 /* XCRemoteSwiftPackageReference "PartialSheet" */,
+			);
+			productRefGroup = DD9B19222617806800E649B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD9B19202617806800E649B9 /* InvoiceApproval */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD9B191F2617806800E649B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9B192C2617806900E649B9 /* Preview Assets.xcassets in Resources */,
+				DD9B19292617806900E649B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD9B191D2617806800E649B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9B1956261789DD00E649B9 /* FormFieldStyle.swift in Sources */,
+				DD9B196326178C3600E649B9 /* ButtonState.swift in Sources */,
+				DD9B197826178D0000E649B9 /* DocumentLog.swift in Sources */,
+				DD9B1959261789F600E649B9 /* InvoiceItem.swift in Sources */,
+				DD9B19B32617991900E649B9 /* Mocks.swift in Sources */,
+				DD9B199526178FA600E649B9 /* LoginView.swift in Sources */,
+				DD9B198826178E4900E649B9 /* BellatrixAccessTokenPlugin.swift in Sources */,
+				DD9B196926178C6900E649B9 /* ErrorDescription.swift in Sources */,
+				DD9B199126178EB900E649B9 /* DownloadedFile.swift in Sources */,
+				DD9B19A92617911000E649B9 /* WorkflowActions.swift in Sources */,
+				DD9B19B62617995400E649B9 /* WorkflowScenarioQueue.swift in Sources */,
+				DD9B199926178FCE00E649B9 /* RootView.swift in Sources */,
+				DD9B19AF261798E200E649B9 /* RemotePDF.swift in Sources */,
+				DD9B196026178BED00E649B9 /* Color.swift in Sources */,
+				DD9B197226178CD900E649B9 /* ElectronicFormNameList.swift in Sources */,
+				DD9B19AC261798D400E649B9 /* ShareSheetPDF.swift in Sources */,
+				DD9B195C26178B9900E649B9 /* Log.swift in Sources */,
+				DD9B198B26178E6200E649B9 /* CorrelationTokenPlugin.swift in Sources */,
+				DD9B197C26178D3D00E649B9 /* Approver.swift in Sources */,
+				DD9B197526178CEC00E649B9 /* DocumentBasicInfo.swift in Sources */,
+				DD9B19272617806800E649B9 /* ContentView.swift in Sources */,
+				DD9B19532617881A00E649B9 /* ThemedButtonStyle.swift in Sources */,
+				DD9B19252617806800E649B9 /* InvoiceApprovalApp.swift in Sources */,
+				DD9B196F26178CA500E649B9 /* WorkflowDetails.swift in Sources */,
+				DD9B196626178C5100E649B9 /* Auth.swift in Sources */,
+				DD9B199F2617902B00E649B9 /* InvoiceDetail.swift in Sources */,
+				DD9B197F26178D6C00E649B9 /* HTTPResponse.swift in Sources */,
+				DD9B19A22617905000E649B9 /* WorkflowDocument.swift in Sources */,
+				DD9B199C2617900C00E649B9 /* InvoiceListView.swift in Sources */,
+				DD9B196C26178C7B00E649B9 /* Invoice.swift in Sources */,
+				DD9B198E26178E7600E649B9 /* MoyaCacheablePlugin.swift in Sources */,
+				DD9B198326178E1E00E649B9 /* APIProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DD9B192E2617806900E649B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD9B192F2617806900E649B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD9B19312617806900E649B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"InvoiceApproval/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InvoiceApproval/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prabh.InvoiceApproval;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD9B19322617806900E649B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"InvoiceApproval/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InvoiceApproval/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prabh.InvoiceApproval;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD9B191C2617806800E649B9 /* Build configuration list for PBXProject "InvoiceApproval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9B192E2617806900E649B9 /* Debug */,
+				DD9B192F2617806900E649B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9B19302617806900E649B9 /* Build configuration list for PBXNativeTarget "InvoiceApproval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9B19312617806900E649B9 /* Debug */,
+				DD9B19322617806900E649B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD9B1935261784C800E649B9 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.1;
+			};
+		};
+		DD9B19A4261790D900E649B9 /* XCRemoteSwiftPackageReference "PartialSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AndreaMiotto/PartialSheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD9B1936261784C800E649B9 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9B1935261784C800E649B9 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		DD9B19A5261790D900E649B9 /* PartialSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9B19A4261790D900E649B9 /* XCRemoteSwiftPackageReference "PartialSheet" */;
+			productName = PartialSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DD9B19192617806800E649B9 /* Project object */;
+}
